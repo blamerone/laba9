@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа №9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Лабораторная работа №9</h1>
+
+    <!-- Ссылка на demo.html -->
+    <a href="demo.html" class="demo-link">Перейти к демонстрации</a>
+
+    <!-- Ссылки на кнопках -->
+    <button onclick="window.open('https://github.com/blamerone', '_blank')">GitHub</button>
+    <button onclick="window.open('https://t.me/blamerone', '_blank')">Telegram</button>
+
+    <!-- Форма -->
+    <form>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" placeholder="Введите ваше имя" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Введите ваш email" required>
+
+        <label for="phone">Номер телефона:</label>
+        <input type="tel" id="phone" placeholder="Введите ваш номер телефона" required>
+
+        <ul>
+            <li>С помощью чего с вами связаться?</li>
+        </ul>
+        <label for="radio1">
+            <input type="radio" name="option" id="radio1" checked> Ваш номер телефона
+        </label>
+        <label for="radio2">
+            <input type="radio" name="option" id="radio2"> Ваша электронная почта
+        </label>
+
+        <button type="submit">Отправить</button>
+    </form>
+
+    <!-- Список -->
+    <ul>
+        <li>Что такое HTML?</li>
+        <li>Как работает CSS?</li>
+        <li>Что такое псевдоклассы?</li>
+        <li>Как использовать Git?</li>
